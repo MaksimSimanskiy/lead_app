@@ -8,8 +8,7 @@
 
     <title>{{ config('app.name', 'Оставить заявку') }}</title>
 
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
@@ -65,6 +64,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+                                     <a class="dropdown-item" href="{{ route('profile.show') }}">Профиль</a>
                                 </div>
                             </li>
                         @endguest

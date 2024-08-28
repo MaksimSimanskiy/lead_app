@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+<div class="container d-flex justify-content-center align-items-center" ">
     <div class="card shadow-lg p-4" style="width: 100%; max-width: 500px;">
         <h1 class="text-center mb-4">Оставьте заявку</h1>
         <form action="{{ route('leads.store') }}" method="POST">
