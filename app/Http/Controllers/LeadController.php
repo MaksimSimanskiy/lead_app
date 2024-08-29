@@ -26,7 +26,7 @@ class LeadController extends Controller
         ]);
 
         Lead::create($request->all());
-        return redirect()->back()->with('success', 'Lead created successfully.');
+        return redirect()->back()->with('success', 'Ваша заявка принята');
     }
 
     public function edit(Lead $lead)
@@ -38,13 +38,13 @@ class LeadController extends Controller
     public function update(Request $request, Lead $lead)
     {
         $lead->update($request->all());
-        return redirect()->route('leads.index')->with('success', 'Lead updated successfully.');
+        return redirect()->route('leads.index')->with('success', 'Лид обновлен успешно');
     }
 
     public function destroy(Lead $lead)
     {
         $lead->delete();
-        return redirect()->route('leads.index')->with('success', 'Lead deleted successfully.');
+        return redirect()->route('leads.index')->with('success', 'Лид обновлен');
     }
 }
 

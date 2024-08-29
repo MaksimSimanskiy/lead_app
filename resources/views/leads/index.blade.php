@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                 <div class="card-header text-center" style="background-color: #f8f9fa;">
-                    <h2>{{ __('Лиды') }}</h2>
+                    <h2>{{ __('Лиды') }} </h2>
                 </div>
 
                 <div class="card-body">

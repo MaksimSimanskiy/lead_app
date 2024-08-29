@@ -8,3 +8,17 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.notify {
+    background-color: #d4edda; /* Светло-зеленый фон */
+    color: #155724; /* Темно-зеленый текст */
+    padding: 5px; /* Отступы внутри блока */
+    border-radius: 8px; /* Скругленные края */
+    border: 1px solid #c3e6cb; /* Окантовка чуть темнее фона */
+    margin-bottom: 20px; /* Отступ снизу */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    max-width: 500px; /* Максимальная ширина блока */
+    margin: 0 auto; /* Центрирование блока */
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
